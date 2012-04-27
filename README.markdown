@@ -1,12 +1,13 @@
 What's this ?
---------------
+===============
 helper functions for [handlebars](http://handlebarsjs.com/) JavaScript template engine.
 
 
 Helpers
--------
+=======
 
-### each\_with\_idx
+each\_with\_idx
+----------------
 each function with loop index.
 
 #### Usage:
@@ -17,7 +18,7 @@ each function with loop index.
           {{/each}}
         </ul>
 
-**Result:**
+Result:
 
         <ul class="people_list">
           <li>0 - Yehuda Katz</li>
@@ -30,7 +31,7 @@ each function with loop index.
 - start
  - number of start index.
 
-#### Example
+Example
 
         <ul class="people_list">
           {{#each_with_idx people start=5}}
@@ -38,7 +39,7 @@ each function with loop index.
           {{/each}}
         </ul>
 
-**Result:**
+Result:
 
         <ul class="people_list">
           <li>5 - Yehuda Katz</li>
@@ -49,11 +50,11 @@ each function with loop index.
 
 
 See
----
+====
 - [handlebars.js](http://handlebarsjs.com/)
 
 
 License
--------
+========
 Copyright (c) 2012 Daisuke Takaoka. 
 MIT License.
